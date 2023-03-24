@@ -1,0 +1,43 @@
+lockfileVersion: 5.4
+
+specifiers:
+  '@prisma/client': 4.12.0-dev.22
+  prisma: 4.12.0-dev.22
+
+dependencies:
+  '@prisma/client': 4.12.0-dev.22_prisma@4.12.0-dev.22
+
+devDependencies:
+  prisma: 4.12.0-dev.22
+
+packages:
+
+  /@prisma/client/4.12.0-dev.22_prisma@4.12.0-dev.22:
+    resolution: {integrity: sha512-moIjqegOmMUUIiWd9MXRbu5ceond7TMnTDD9NuV7WGyFdPZ7N6ylZMqPKJv3WMgYWPIMhYoAHhpGTh4++qlDHg==}
+    engines: {node: '>=14.17'}
+    requiresBuild: true
+    peerDependencies:
+      prisma: '*'
+    peerDependenciesMeta:
+      prisma:
+        optional: true
+    dependencies:
+      '@prisma/engines-version': 4.12.0-56.c1e0dae67cfbcce8dfd6bf42b894eb61c4b8bea8
+      prisma: 4.12.0-dev.22
+    dev: false
+
+  /@prisma/engines-version/4.12.0-56.c1e0dae67cfbcce8dfd6bf42b894eb61c4b8bea8:
+    resolution: {integrity: sha512-tJwoYNIoyRxsWm2KL1OboJtIqkVuvEomLcl3e/Tsgi4QxnQlBjUHoILEAACrXy7iq5BOhp5Zx9iBtnVAbaVAZg==}
+    dev: false
+
+  /@prisma/engines/4.12.0-dev.22:
+    resolution: {integrity: sha512-nLsvJTA75AP4mHD5f3u9iC9/aVlsFL2YV7/m1Rq03N/wd1qmUiLFK7v/Q5n2dsIAR3EE9yAnT/7if/WWb9Ab5g==}
+    requiresBuild: true
+
+  /prisma/4.12.0-dev.22:
+    resolution: {integrity: sha512-dJcjEQQhxEvf8xlRg2hzInicbYTBx6KerQCkCT2CZIGB25LVNMO/txtKtDm8zN/yjvp4OtbghtQuADqTJxna7A==}
+    engines: {node: '>=14.17'}
+    hasBin: true
+    requiresBuild: true
+    dependencies:
+      '@prisma/engines': 4.12.0-dev.22
